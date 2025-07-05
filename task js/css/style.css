@@ -1,0 +1,19 @@
+/* start Sign Up home section */
+
+.logo{ 
+    top: 20px;
+    left: 10px;
+    font-size: 22px;
+    color: blue;
+}
+
+.all{
+    padding: 30px;
+    padding-left: 34px;
+}
+
+/* end Sign Up home section */
+
+.resulto{
+    transition: 0.5s;
+}

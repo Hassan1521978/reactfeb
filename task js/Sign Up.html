@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- WOW -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- mbdbootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- start header home section -->
+
+<header class="SignUp-home mt-5 bg-light">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="css/img/11.jpg" class="w-75">
+            </div>
+
+            <div class="col-md-6">
+                <h2>Creat Account</h2>
+
+                <p class="text-muted">Go ahead and sign up, let everyone<br> know how awesome you are!</p>
+
+                <h5 id="result"></h5>
+                <form method="post" action="Success.html" onsubmit="return validateData()">
+                    <div class="position-relative">
+
+                        <i class="fa-solid fa-user position-absolute logo"></i>
+                        <input type="text" name="user" id="user" placeholder="Username" class="form-control mb-4 all">
+
+                    </div>
+
+                    <div class="position-relative">
+
+                        <i class="fa-solid fa-envelope position-absolute logo"></i>
+                        <input type="text" name="email" id="email" placeholder="email" class="form-control mb-4 all">
+
+                    </div>
+
+                    <div class="position-relative">
+
+                        <i class="fa-solid fa-lock position-absolute logo"></i>
+                        <input type="password" name="pass" id="pass" placeholder="password" class="form-control mb-4 all">
+
+                    </div>
+
+                    <div class="position-relative">
+
+                        <i class="fa-solid fa-lock position-absolute logo"></i>
+                        <input type="password" name="confirm" id="confirm" placeholder="confirm password" class="form-control mb-4 all">
+
+                    </div>
+
+                    <input type="submit" value="Creat New Account" class="btn btn-primary btn-block">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+<!-- end header home section -->
+
+
+    <!-- WOW -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- mdbbootstrap -->
+    <script src="js/mdb.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
